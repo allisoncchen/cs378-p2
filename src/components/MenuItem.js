@@ -11,7 +11,7 @@ const MenuItem = ({ menuItem }) => {
         <div class = "container">
             <div className = "item">
                 <div className = "col-6">
-                    <img src = {`/images/${menuItem.imageName}`} alt = {menuItem.description}/>
+                    <img src = {`/cs378-p2/images/${menuItem.imageName}`} alt = {menuItem.description}/>
                 </div>
                 <div className = "col-6">
                     <div className = "title"> {menuItem.title}  </div>
