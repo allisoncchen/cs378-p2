@@ -7,7 +7,7 @@ const MenuHeader = ({}) => {
     
         <div header> 
             <div className = "main_title" >
-                <img src = "/images/cherry.png" id = "cherry" alt = "A cherry blossom overlayed with the word 'Cherry's." />
+                <img src = "./japanese_menu/images/cherry.png" id = "cherry" alt = "A cherry blossom overlayed with the word 'Cherry's." />
             </div>
             <div className = "desc" > Japanese local favorites! </div>
             <div className = "catchphrase" > Enjoy everything from sweet desserts to savory entrees! </div>
