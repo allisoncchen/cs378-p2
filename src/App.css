@@ -3,6 +3,120 @@
   Below, you can see an example of a class called "menu" that changes the color of the text to blue. Modify according to your needs.
 */
 
-.menu {
+/* .menu {
   color: blue;
+} */
+.main_title{
+  font-family: 'Times New Roman', Times, serif; 
+  color: black; 
+  text-align: center; 
+  align-items: center; 
+  text-align: center; 
+  justify-content: center; 
+  padding: 10px; 
+}
+
+.desc{
+  font-family: Georgia, 'Times New Roman', Times, serif; 
+  color: rgb(95, 16, 16); 
+  text-align: center; 
+  margin: 15px; 
+}
+
+.catchphrase{
+  font-family: cursive; 
+  color: rgb(220, 22, 22); 
+  text-align: center; 
+  margin: 20px; 
+}
+
+#cherry { 
+  width: 50%;
+  height: auto;  
+  object-fit: cover;   
+}
+
+.container{ 
+  display: flex; 
+  gap: 20px; 
+  flex-direction: column; 
+  align-items: center;  
+  height: auto;  
+  width: 100%; 
+  gap: 10px; 
+  padding: 30px; 
+}
+
+.item .col-6 {
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  flex: 1; /* Ensure the columns occupy equal width */
+}
+
+.item{ 
+  display: flex; 
+  flex-wrap: nowrap; 
+  flex-direction: row; 
+  width: 100%; 
+  max-width: 800px; 
+  height: 150px;  
+  margin: 10px 0;     
+  align-items: center; 
+  box-sizing: border-box; 
+  gap: 10px; 
+}
+
+
+.title {
+  font-family: Arial, Helvetica, sans-serif; 
+  color: rgb(0, 0, 0); 
+  font-size: 16px; 
+  text-align: left; 
+  font-weight: 600; 
+  margin: 3px; 
+}
+
+
+#inline{
+  justify-content: space-between; 
+  display:flex;
+}
+
+
+.description{
+  font-family: Arial, Helvetica, sans-serif; 
+  color: rgb(88, 87, 87); 
+  font-size: 13px; 
+  padding: 10px; 
+  text-align: left; 
+}
+
+
+.price {
+  text-align: left; 
+  font-weight: bold; 
+  margin: 3px; 
+}
+
+
+
+.item img {
+  border-radius: 5%; 
+  width: px; 
+  height: 150px; 
+  object-fit: cover; 
+  /* align-items: right;  */
+  /* margin-right: 90px; */
+  margin-left: auto; 
+}
+
+
+.add{ 
+  text-align: right; 
+  background-color: rgba(243, 6, 113, 0.514); 
+  border-radius: 10px; 
+  padding: 5px 10px; 
+  font-size: 15px; 
+  display: inline-block;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.24);
 }
